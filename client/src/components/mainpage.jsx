@@ -15,7 +15,7 @@ const MainPage = (props) => {
                     <li className="hlinks">Instagram</li>
                     <li className="hlinks">Twitter</li>
                     <li className="hlinks">Twitch</li>
-                    <li className="hlinks">About Me</li>
+                    <li className="hlinks"><Link to={'/aboutMe'}>About Me</Link></li>
                     <li className="hlinks"><Link to={'/contact'}>Contact</Link></li>
                 </ul>
             </div>
