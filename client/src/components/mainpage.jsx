@@ -7,6 +7,7 @@ const MainPage = (props) => {
             <nav>
             <div className = 'title'>
                 <h1>Pictures With Purpose</h1>
+                <h2>hi</h2>
             </div>
             <div className="headerLinks">
                 <ul>
