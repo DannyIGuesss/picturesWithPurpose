@@ -1,3 +1,5 @@
+import {Link} from 'react-router-dom'
+
 import '../css_files/mainPage.css'
 const MainPage = (props) => {
     return (
@@ -13,7 +15,7 @@ const MainPage = (props) => {
                     <li className="hlinks">Twitter</li>
                     <li className="hlinks">Twitch</li>
                     <li className="hlinks">About Me</li>
-                    <li className="hlinks">Contact</li>
+                    <li className="hlinks"><Link to={'/contact'}>Contact</Link></li>
                 </ul>
             </div>
             </nav>
